@@ -7,6 +7,14 @@
 		{
 			"name": "Teensy-4.0-AudioShield-Test",
 			"path": "Teensy-4.0-AudioShield-Test"
+		},
+		{
+			"name": "Teensy-Audio-Plot-FFT-Serial",
+			"path": "Teensy-Audio-Plot-FFT-Serial"
+		},
+		{
+			"name": "Teensy-Audio-MicInput-Plot",
+			"path": "Teensy-Audio-MicInput-Plot"
 		}
 	]
 }

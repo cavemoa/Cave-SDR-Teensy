@@ -1,0 +1,20 @@
+#include <Arduino.h>
+#include <Wire.h>
+#include <SPI.h>
+#include <Audio.h>        // Teensy audio library by Paul Stoffregen
+
+// GUItool: begin automatically generated code
+AudioSynthWaveformSine   waveform1;          //xy=137,130
+AudioOutputI2S           i2s1;           //xy=339,136
+AudioConnection          patchCord1(waveform1, 0, i2s1, 0);
+AudioConnection          patchCord2(waveform1, 0, i2s1, 1);
+AudioControlSGTL5000     sgtl5000_1;     //xy=147,73
+// GUItool: end automatically generated code
+
+void setup() {
+  AudioMemory(15);
+  waveform1.frequency(880);
+  waveform1.amplitude(0.95);
+}
+
+void loop() {
